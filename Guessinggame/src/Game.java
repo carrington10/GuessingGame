@@ -6,7 +6,7 @@ public class Game {
 
     public void start(){
         Random rand = new Random();
-        number =  rand.nextInt(1000);
+        number =  rand.nextInt(100);
     }// end of start game
     public boolean guess(int gNumber){
         if(gNumber == number){
